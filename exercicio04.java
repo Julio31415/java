@@ -14,8 +14,8 @@ public class exercicio04 {
         System.out.print("Entre com o segundo numero: ");
         number02 = input.nextInt();
 
-        if (number01 == number02)
-            System.out.printf("%d == %d \n",number01,number02);
+        if (number01 == number02){
+            System.out.printf("%d == %d \n",number01,number02);}
         if (number01 != number02)
             System.out.printf("%d != %d \n",number01,number02);
         if (number01 < number02)
